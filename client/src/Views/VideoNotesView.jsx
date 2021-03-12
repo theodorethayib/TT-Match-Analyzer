@@ -120,6 +120,7 @@ function VideoNotesView() {
     getOpeningTypeList();
     getWinByList();
     getOpponents();
+    // document.title("TT Match Analysis");
   }, []);
 
   useEffect(() => {
