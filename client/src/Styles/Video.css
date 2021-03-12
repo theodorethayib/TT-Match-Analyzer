@@ -1,0 +1,50 @@
+.video-sidebar {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    flex-grow: 1;
+    flex-shrink: 1;
+    /*flex: auto;*/
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 0 250px 0 0;
+    transition: 350ms;
+}
+
+.video {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    margin: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /*flex: auto;*/
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    transition: 350ms;
+    /*margin-right: 250px;*/
+}
+
+.vidwrapper {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.vidcontrols {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /*width: 100%;*/
+}
+
+/*.wrap {*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    width: 100%;*/
+/*    margin: auto;*/
+/*    text-align: center;*/
+/*}*/

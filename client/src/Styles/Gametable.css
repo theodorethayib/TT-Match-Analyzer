@@ -1,0 +1,98 @@
+.GNWrapper {
+    /*margin: 50px;*/
+    /*width: 50%;*/
+}
+
+.input {
+    /*width: 2%;*/
+    color: #ccc;
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/*input[type=text] {*/
+/*    background-color: #333;*/
+/*}*/
+
+.dropbtn {
+    width: auto;
+    /*background-color: #FDFDFD;*/
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
+    /*padding: 5px 10px;*/
+    margin: 0;
+    /*box-shadow: none;*/
+    /*text-shadow: none;*/
+    outline: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropmenu {
+    position: relative;
+    display: inline-block;
+}
+
+/* Show the dropdown menu on hover */
+.dropmenu:hover .dropmenu-content {
+    display: block;
+    overflow: auto;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropmenu:hover .dropbtn {
+    /*background-color: #E7E7E7;*/
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropmenu-content {
+    display: none;
+    position: absolute;
+    /*background-color: #222;*/
+    /*min-width: 100px;*/
+    /*box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);*/
+    z-index: 1;
+    overflow: auto;
+    max-height: 500px;
+}
+
+/* Links inside the dropdown */
+.dropmenu-content p {
+    color: #ccc;
+    /*padding: 12px 16px;*/
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    overflow: auto;
+}
+
+/* Change color of dropdown links on hover */
+.dropmenu-content p:hover {
+    /*background-color: #ddd;*/
+    cursor: pointer;
+    overflow: auto;
+}
+
+.notes {
+    color: #ccc;
+    background-color: #555;
+    border-radius: 4px;
+    min-width: 100%;
+}
+
+input[type="number"] {
+    width: 75px;
+}
+
+.vidflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.widthauto {
+    width: auto;
+}

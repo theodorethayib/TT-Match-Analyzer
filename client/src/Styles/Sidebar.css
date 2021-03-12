@@ -1,0 +1,164 @@
+.wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*.videoWrapper {*/
+/*    margin: 0;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    flex-shrink: 1;*/
+/*    width: auto;*/
+/*    !*align-items: center;*!*/
+/*    !*justify-content: center;*!*/
+/*}*/
+
+.navbar {
+    background-color: #666666;
+    height: 30px;
+    display: flex;
+    /*justify-content: flex-end;*/
+    align-items: center;
+}
+
+.navbar-icon {
+    justify-content: flex-end;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.navbar-text {
+    justify-content: center;
+    width: 99%;
+}
+
+.menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+
+.nav-menu {
+    background-color: #666666;
+    width: 250px;
+    /*width: 10%;*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 30px;
+    /*left: -100%;*/
+    right: -100%;
+    transition: 350ms;
+}
+
+.nav-menu.active {
+    right: 0;
+    transition: 250ms;
+    flex-grow: 2;
+
+}
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.nav-text a:hover {
+    background-color: #1a83ff;
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+.navbar-toggle {
+    background-color: #666666;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+span {
+    margin-left: 16px;
+}
+
+.title-flex {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+h2 {
+    text-underline: #000;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0 0 0 0;
+    font-size: 32px;
+}
+
+.vid {
+    align-items: center;
+    justify-content: center;
+}
+
+.subnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+    background-color: #444444;
+    padding: 5px;
+    padding-right: 10px;
+    color: #cccccc;
+    transition: 350ms;
+}
+
+.subnav-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+    background-color: #444444;
+    padding: 5px;
+    padding-right: 10px;
+    color: #cccccc;
+    margin: 0 250px 0 0;
+    transition: 350ms;
+}
+
+.pointtable {
+    width: auto;
+    transition: 350ms;
+    margin: 0;
+}
+
+.pointtable-navbar {
+    width: auto;
+    transition: 350ms;
+    margin: 0 250px 0 0;
+}

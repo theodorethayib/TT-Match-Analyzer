@@ -1,0 +1,32 @@
+.navwrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+
+.navcontent {
+    margin: 10px;
+    padding: 2px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #fff;
+    color: white;
+}
+
+.navcontent-selected {
+    margin: 10px;
+    padding: 2px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #B0E0E6;
+    color: #B0E0E6;
+}
+
+.navcontent-addgame {
+    margin: 10px;
+    padding: 2px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #cccccc;
+    color: #cccccc;
+}
